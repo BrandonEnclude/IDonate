@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>IDonate</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Definition__c</field>
+        <value xsi:type="xsd:string">{&quot;flowDefinition&quot;:{&quot;name&quot;:&quot;Donor_Import_IDonate&quot;},&quot;excludeRows&quot;:[],&quot;mappings&quot;:[{&quot;column&quot;:&quot;Donation Date&quot;,&quot;field&quot;:&quot;encdi2__Disbursement_Date__c&quot;,&quot;parameters&quot;:{&quot;format&quot;:&quot;DD-MM-YYYY&quot;}},{&quot;column&quot;:&quot;Donor&apos;s First Name&quot;,&quot;field&quot;:&quot;encdi2__Donor_First_Name__c&quot;},{&quot;column&quot;:&quot;Donor&apos;s Last Name&quot;,&quot;field&quot;:&quot;encdi2__Donor_Last_Name__c&quot;},{&quot;column&quot;:&quot;Email&quot;,&quot;field&quot;:&quot;encdi2__Donor_Email__c&quot;},{&quot;column&quot;:&quot;Commission&quot;,&quot;field&quot;:&quot;encdi2__Merchant_Fee__c&quot;},{&quot;column&quot;:&quot;Net Amount&quot;,&quot;field&quot;:&quot;encdi2__Amount__c&quot;},{&quot;column&quot;:&quot;Address&quot;,&quot;field&quot;:&quot;encdi2__Donor_Address_1__c&quot;},{&quot;column&quot;:&quot;Town&quot;,&quot;field&quot;:&quot;encdi2__Donor_City__c&quot;},{&quot;column&quot;:&quot;County&quot;,&quot;field&quot;:&quot;encdi2__Donor_County__c&quot;},{&quot;column&quot;:&quot;Postcode&quot;,&quot;field&quot;:&quot;encdi2__Donor_Postal_Code__c&quot;},{&quot;column&quot;:&quot;Fundraiser Firstname&quot;,&quot;field&quot;:&quot;encdi2__Contributor_First_Name__c&quot;},{&quot;column&quot;:&quot;Fundraiser Surname&quot;,&quot;field&quot;:&quot;encdi2__Contributor_Last_Name__c&quot;}],&quot;transforms&quot;:[]}</value>
+    </values>
+</CustomMetadata>

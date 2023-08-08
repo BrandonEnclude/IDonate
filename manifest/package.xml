@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>56.0</version>
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>Donor_Import_IDonate</members>
+		<name>Flow</name>
+	</types>
+	<version>55.0</version>
 </Package>
