@@ -7,7 +7,7 @@
         <locationX>176</locationX>
         <locationY>134</locationY>
         <assignmentItems>
-            <assignToReference>DonorImportLine.Flow_Guid__c</assignToReference>
+            <assignToReference>DonorImportLine.encdi2__Flow_Guid__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>$Flow.InterviewGuid</elementReference>
