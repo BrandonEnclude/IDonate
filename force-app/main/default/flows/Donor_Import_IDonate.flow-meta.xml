@@ -51,6 +51,6 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>true</isOutput>
-        <objectType>Donor_Import_Line__c</objectType>
+        <objectType>encdi2__Donor_Import_Line__c</objectType>
     </variables>
 </Flow>
